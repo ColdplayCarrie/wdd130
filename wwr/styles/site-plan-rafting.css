@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oswald:wght@200&family=Raleway:wght@300&family=Teko:wght@300&display=swap');
+
+:root {
+    --primary-color: #2B4252;
+    --secondary-color: #E24300;
+    --accent1-color: #BDAC9C;
+    --accent2-color: #D8DBE2;
+
+    --heading-font: 'Teko', san-serif;
+    --paragraph-font: 'Raleway', san-serif;
+
+    --navigation-background-color: #5F8BAB; 
+    --navigation-link-color:#FF540A;
+    --navigation-hover-link-color: #FFFFFF;
+    --navigation-hover-background-color: #625141;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+header {
+    padding: 10px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 15px;
+}
+
+nav {
+    background-color: var(--navigation-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--navigation-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, van a:visited {
+    color: var(--navigation-link-color);
+}
+
+nav a:hover {
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-background-color);
+}
