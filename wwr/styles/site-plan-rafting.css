@@ -9,10 +9,10 @@
     --heading-font: 'Teko', san-serif;
     --paragraph-font: 'Raleway', san-serif;
 
-    --navigation-background-color: #5F8BAB; 
-    --navigation-link-color:#FF540A;
-    --navigation-hover-link-color: #FFFFFF;
-    --navigation-hover-background-color: #625141;
+    --nav-background-color: #5F8BAB; 
+    --nav-link-color: #FF540A;
+    --nav-hover-link-color: #FFFFFF;
+    --nav-hover-background-color: #625141;
 }
 
 body {
