@@ -51,6 +51,7 @@ aside {
   position: relative;
   width: 22rem;
   text-align: center;
+  grid-column: 1/3;
 }
 
 aside h2 {
