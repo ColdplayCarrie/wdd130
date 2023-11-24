@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oswald:wght@200&family=Raleway:wght@300&family=Teko:wght@300&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: #2B4252;
     --secondary-color: #E24300;
@@ -15,9 +21,18 @@
     --nav-hover-background-color: #625141;
 }
 
+header {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 nav {
-   font-family: var(--heading-font);
-   font-size: 42pt; 
+    display: flex;
+    font-family: var(--heading-font);
+    padding: 13px;
+    font-size: 22pt;
+    justify-content: space-evenly;
+    align-content: center; 
 }
 
 h1 {
@@ -81,7 +96,7 @@ article img {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
     column-gap: 15px ;
