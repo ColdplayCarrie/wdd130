@@ -75,9 +75,9 @@ footer {
 /* Class Selectors */
 .box {
   margin: 1rem;
-  border: 5px solid rgba(3, 2, 4, 0.6);;
+  border: 5px solid rgba(3, 2, 4, 0.6);
   padding: 1rem;
-  background-color: lightgray;
+  background-color: #E6E6E6;
   color: darkblue;
 }
 
