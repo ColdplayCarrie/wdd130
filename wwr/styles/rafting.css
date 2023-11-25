@@ -56,6 +56,10 @@ nav {
 /* DIV - VECTOR EMBLEM RAFTING  */
         /* CLASS - HERO, CENTER, BOX */
 
+div {
+    display: grid;
+}
+
 h1 {
     position: absolute;
     font-family: var(--heading-font);
@@ -77,31 +81,60 @@ article img {
 
 /* SECTION - ADVENTURE AWAITS */
 
+section {
+    display: grid;
+}
+
 h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
     font-size: 36pt;
     align-content: center;
+    padding-top: 30px;
 }
 
 p {
-    padding: 20px;
     font-family: var(--paragraph-font);
     color: black;
     font-weight: bold;
     /* adjust font spacing between letters  */
 }
 
+figcaption {
+    font-size: 8pt;
+    padding-bottom: 5px;
+}
+
+section img {
+    padding-top: 20px;
+    width: 120px;
+    margin: 0 auto;
+    border-color: black;
+}
+
 
 /* FOOTER */
 
+footer {
+    display: flex;
+    /* justify-content: center; */
+    /* align-content: center; */
+    background-color: var(--accent2-color);
+    
+}
+
+footer img {
+    width: 50px;
+    padding: 5px;
+}
 
 
 /* CLASS SELECTORS */
 .hero {
     display: grid;
     position: relative;
-    align-content: center;  
+    /* max-width: 960px; */
+    align-content: center; 
 }
 
 .box {
@@ -129,4 +162,8 @@ p {
 
 .hero img {
     position: relative;
+}
+
+.adventureawaits {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
