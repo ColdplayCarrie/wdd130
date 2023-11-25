@@ -150,14 +150,6 @@ footer img {
     position: absolute;
   }
 
-
-
-/* .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-} */
-
 .grid {
     display: grid;
     grid-template-columns: 90px 1fr;
