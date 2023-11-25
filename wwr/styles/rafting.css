@@ -100,6 +100,10 @@ p {
     /* adjust font spacing between letters  */
 }
 
+figure img {
+    max-width: 175px;
+}
+
 figcaption {
     font-size: 8pt;
     padding-bottom: 5px;
@@ -135,8 +139,6 @@ footer img {
     position: relative;
     /* max-width: 960px; */
     align-content: center;
-    grid-template-rows: 1 1;
-
 }
 
 .box {
@@ -166,8 +168,4 @@ footer img {
     position: relative;
     max-width: 960px;
     margin: 0 auto;
-}
-
-.adventureawaits {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
