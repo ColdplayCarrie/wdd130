@@ -82,6 +82,10 @@ button {
     border: 3px solid darkblue;
 }
 
+button[type="submit"] {
+    margin: 0 0 0 auto;
+}
+
 button:hover {
     background-color: lightgreen;
 }
