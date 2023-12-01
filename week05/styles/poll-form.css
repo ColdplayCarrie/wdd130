@@ -67,9 +67,9 @@ input, select, textarea {
     font-size: larger;
 }
 
-input [type="checkbox"] {
-    width: 21px;
-    height: 21px;
+input[type="checkbox"] {
+    width: 23px;
+    height: 23px;
     vertical-align: bottom;
 }
 
