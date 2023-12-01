@@ -39,6 +39,9 @@ label, input, button, select, textarea, text {
     padding: 15px;
 }
 
+fieldset {
+    padding: 15px;
+}
 
 button {
     width: 200px;
