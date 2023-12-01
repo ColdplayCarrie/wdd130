@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Lora&family=Oswald:wght@200&family=Raleway:wght@300&family=Teko:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --paragraph-font: 'Lora', serif;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    color: green;
+    background-color: azure;
+}
+
+header {
+    display: grid;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: larger;
+    padding: 20px;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 5px double green;
+    border-radius: 20px;
+    background-color: #D6ECFF;
+    color: black;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .4rem;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 16pt;
+    padding: 3px;
+}
+
+
+
+label, input, button, select, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 5px; 
+    font-size: 12pt;
+}
+
+input, select, textarea {
+    padding: 5px;
+    font-size: larger;
+}
+
+input [type="checkbox"] {
+    width: 21px;
+    height: 21px;
+    vertical-align: bottom;
+}
+
+button {
+    width: 150px;
+    height: 53px;
+    font-size: 16pt;
+    color: darkblue;
+    font-weight: bold;
+    border: 3px solid darkblue;
+}
+
+button:hover {
+    background-color: lightgreen;
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+    border-top: 2px solid green;
+    width: auto;
+    font-size: 11pt;
+}
+
+/* CLASS SELECTORS */
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: auto 0;
+    padding-bottom: 7px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.column3 {
+    display: grid;
+    text-align: right;
+    padding-right: 3px;
+    grid-template-columns: 3fr 1fr;
+}
+
+.column4 {
+    text-align: right;
+}
