@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=DM+Sans:opsz,wght@9..40,200&family=Lora&family=Oswald:wght@200&family=Raleway:wght@300&family=Teko:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: DM Sans, sans-serif;
+    color: darkblue;
+    background-color: #D6ECFF;
+    font-size: larger;
+}
+
+header {
+    display: grid;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: larger;
+    font-weight: bold;
+    padding: 15px;
+}
+
+form {
+    width: 750px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 5px solid darkblue;
+    background-color: whitesmoke;
+    display: grid;
+}
+
+label, input, button, select, textarea, text {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+
+
+button {
+    width: 200px;
+    height: 53px;
+    font-size: 16pt;
+    color: green;
+    font-weight: bold;
+    border: 3px solid green;
+}
+
+button[type="submit"] {
+    margin: 0 auto;
+    background-color: #D6ECFF;
+}
+
+button:hover {
+    background-color: lightgreen;
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    width: auto;
+    font-size: 10pt;
+}
