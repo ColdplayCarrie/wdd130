@@ -260,3 +260,7 @@ footer img {
 .form {
     padding: 30px;
 }
+
+.contact_page {
+    position: static;
+}
