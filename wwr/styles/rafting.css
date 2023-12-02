@@ -71,8 +71,8 @@ h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     font-size: 48pt;
-    left: 170px;
-    top: 88px;
+    /* left: 170px;
+    top: 88px; */
 } 
 
 article {
