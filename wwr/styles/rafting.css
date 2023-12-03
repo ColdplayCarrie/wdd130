@@ -264,3 +264,7 @@ footer img {
 .contact_page {
     position: static;
 }
+
+.wireframe {
+    justify-content: center;
+}
