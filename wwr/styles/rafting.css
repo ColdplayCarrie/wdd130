@@ -40,6 +40,7 @@ header {
     background-color: var(--accent2-color);
     max-width: 960px;
     margin: 0 auto;
+    border-style: solid;
 }
 
 header img {
@@ -92,6 +93,7 @@ section {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    padding: 20px;
 }
 
 h2, h3 {
@@ -202,7 +204,9 @@ button:hover {
 
 /* TABLE */
 table {
-    border: 3px solid #333;
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: left;
 }
 
 caption {
@@ -218,7 +222,6 @@ thead {
 }
 
 td {
-    border-collapse: collapse;
     border: 1px solid var(--primary-color);
     padding: 5px;
 }
@@ -235,11 +238,12 @@ footer {
     align-items: center;
     justify-items: right;
     background-color: var(--accent2-color);
+    border-style: solid;
 }
 
 footer img {
     width: 50px;
-    padding: 5px;
+    padding: 3px;
 }
 
 /* CLASS SELECTORS */
