@@ -200,6 +200,29 @@ button:hover {
     background-color: lightgreen;
 }
 
+/* TABLE */
+table {
+    border: 3px solid #333;
+}
+
+caption {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 36pt;
+}
+
+thead {
+    font-weight: bolder;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+table, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 5px;
+}
+
 /* FOOTER */
 
 footer {
@@ -208,7 +231,6 @@ footer {
     align-items: center;
     justify-items: right;
     background-color: var(--accent2-color);
-    
 }
 
 footer img {
@@ -267,4 +289,14 @@ footer img {
 
 .wireframe {
     justify-content: center;
+}
+
+.trips p {
+    width: 187px;
+    text-align: justify;
+}
+
+.biglink {
+    font-size: 50pt;
+    padding: 30px;
 }
