@@ -207,20 +207,24 @@ table {
 
 caption {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
+    font-weight: bold;
     font-size: 36pt;
 }
 
 thead {
     font-weight: bolder;
-    background-color: var(--secondary-color);
-    color: white;
+    background-color: var(--accent2-color);
 }
 
-table, td {
+td {
     border-collapse: collapse;
-    border: 1px solid black;
+    border: 1px solid var(--primary-color);
     padding: 5px;
+}
+
+ul {
+    padding: 18px;
 }
 
 /* FOOTER */
