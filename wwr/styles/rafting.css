@@ -72,8 +72,8 @@ h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     font-size: 48pt;
-    /* left: 170px;
-    top: 88px; */
+    background-color: rgba(255,255,255,0.7);
+    border-radius: .5rem;
 } 
 
 article {
@@ -117,7 +117,6 @@ p {
     color: black;
     font-weight: bold;
     padding: 1px;
-    /* adjust font spacing between letters  */
 }
 
 figure img {
@@ -251,14 +250,16 @@ footer img {
 /* CLASS SELECTORS */
 .hero {
     position: relative;
+    justify-items: center;
 }
 
 .box {
     margin: 1rem;
     border: 5px solid var(--secondary-color);
     padding: 1rem;
-    background-color: rgba(240,211,211,0.7);
+    background-color: rgba(255,255,255,0.7);
     position: absolute;
+    font-size: large;
   }
 
 .grid {
@@ -293,7 +294,8 @@ footer img {
 }
 
 .contact_page {
-    position: static;
+    position: relative;
+    text-align: center;
 }
 
 .wireframe {
@@ -310,10 +312,6 @@ footer img {
     padding: 15px;
 }
 
-.home {
-    position: relative;
-}
-
 .signup {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -323,4 +321,11 @@ footer img {
 .signup p, img {
     margin: 0 auto;
     width: auto;
+}
+
+.requirements {
+    text-align: left;
+    border: solid;
+    width: 500px;
+    margin: 0 auto;
 }
