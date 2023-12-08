@@ -129,6 +129,8 @@ figcaption {
     font-size: 12pt;
     font-weight: bold;
     padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: center;
 }
 
@@ -143,7 +145,7 @@ legend {
 }
 
 form {
-    width: 600px;
+    width: 100%;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 15px;
@@ -256,7 +258,6 @@ footer img {
     border: 5px solid var(--secondary-color);
     padding: 1rem;
     background-color: rgba(240,211,211,0.7);
-    color: darkblue;
     position: absolute;
   }
 
@@ -306,5 +307,20 @@ footer img {
 
 .biglink {
     font-size: 50pt;
-    padding: 30px;
+    padding: 15px;
+}
+
+.home {
+    position: relative;
+}
+
+.signup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px;
+}
+
+.signup p, img {
+    margin: 0 auto;
+    width: auto;
 }
